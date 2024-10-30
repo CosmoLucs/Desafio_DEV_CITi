@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+    border-bottom: 2px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+}
+
+.headTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Impact;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
+    font-family: Barlow;
+    color: black;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    transition: color 0.3s, border-bottom 0.3s; /* Transição suave */
+}
+
+.container a:hover {
+    color: #007bff; /* Muda a cor do link ao passar o mouse */
+    border-bottom: 2px solid #007bff; /* Adiciona uma linha embaixo do link */
+}
+
+main {
+    padding-top: 6rem;
+    width: 100vw; /* O main ocupa toda a largura da página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.title {
+    width: 100vw; 
+    text-align: center; 
+    font-size: 5rem; 
+    font-weight: bold;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: -10px;
+    color: black;
+    padding: 2rem 0; ;
+}
+
+.mainText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+.icon {
+    margin-left: 5px; /* Reduz a margem para aproximar a imagem e o texto */
+    height: 80px;
+}
+
