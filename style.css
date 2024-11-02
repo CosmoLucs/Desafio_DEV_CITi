@@ -13,6 +13,7 @@ header {
     justify-content: space-between;
     height: 6rem;
     width: 100%;
+    background-color: white;
     border-bottom: 2px solid #ddd; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     z-index: 10; 
@@ -41,21 +42,21 @@ header {
     text-decoration: none;
     color: black;
     padding: 0 15px;
-    transition: color 0.3s, border-bottom 0.3s; /* Transição suave */
+    transition: color 0.3s, border-bottom 0.3s;
 }
 
 .container a:hover {
-    color: #007bff; /* Muda a cor do link ao passar o mouse */
-    border-bottom: 2px solid #007bff; /* Adiciona uma linha embaixo do link */
+    color: #007bff; 
+    border-bottom: 2px solid #007bff;
 }
 
 main {
-    padding-top: 6rem;
-    width: 100vw; /* O main ocupa toda a largura da página */
+    padding: 6rem; 
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .title {
@@ -75,8 +76,24 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    font-family: Oswald;
+    font-weight: 400;
 
+    img {
+        margin-right: 100px;
+        width: 900px;
+    }
+    
+}
+.hyperlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin-right: 50px;
+        width: 100px;
+    }
 }
 
 
